@@ -25,20 +25,22 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-#paginacao ul li{
+
+.paginacao li{
     list-style-type:none;
-    display: inline;
     background-color: rgba(189, 188, 188, 0.774);
-    border: 1px solid;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px gray;
-    padding: 0;
+    border: 0.1px solid;
+    border-color: rgb(134, 134, 134);
+    border-radius: 2px;
+    padding: 3px 3px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-   
+    font-size: 25px;
+    float: left;
+    
 }
 
-#paginacao ul li:hover{
+.paginacao li:hover{
     background-color: rgb(160, 159, 159);
 }
 
